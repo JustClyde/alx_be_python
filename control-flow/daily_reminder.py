@@ -1,7 +1,7 @@
 def main():
     # Prompt for a single task
     task = input("Enter your task: ")
-    priority = input("Priority (high/medium/low): ").lower()
+    priority = input("Priority (super/high/medium/low): ").lower()
     time_bound = input("Is it time-bound? (yes/no): ").lower()
 
     # Reminder message initialization
@@ -9,6 +9,8 @@ def main():
 
     # Process the Task Based on Priority using Match Case
     match priority:
+            case "super":
+            reminder_message += " that requires immediate attention today!"
         case "high":
             reminder_message += " This task requires immediate attention today!"
         case "medium":
