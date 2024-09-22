@@ -9,8 +9,6 @@ def main():
 
     # Process the Task Based on Priority using Match Case
     match priority:
-            case "super":
-            reminder_message += " that requires immediate attention today!"
         case "high":
             reminder_message += " This task requires immediate attention today!"
         case "medium":
