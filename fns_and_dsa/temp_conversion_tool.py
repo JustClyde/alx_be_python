@@ -1,3 +1,6 @@
+
+FAHRENHEIT_TO_CELSIUS_FACTOR\s*=\s*5\s*\/\s*9
+CELSIUS_TO_FAHRENHEIT_FACTOR\s*=\s*9\/5
 <h1>temp_conversion_tool.py</h1> 
 <h1>Define global conversion factors</h1> 
 FAHRENHEIT_TO_CELSIUS_FACTOR = (5 / 9) 
